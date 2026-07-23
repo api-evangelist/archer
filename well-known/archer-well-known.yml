@@ -1,0 +1,20 @@
+generated: '2026-07-18'
+method: searched
+source: live probe of /.well-known/* on archermoney.com hosts
+host: https://www.archermoney.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  No /.well-known/ discovery documents published as of 2026-07-18. Apex host
+  archermoney.com 308-redirects to www.archermoney.com; all well-known paths
+  return 404 on the canonical host. Empty result is expected for this
+  early-stage landing-page-only company.

@@ -1,7 +1,16 @@
 aid: archer
 name: Archer
-description: Archer is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Archer (archermoney.com) is a Y Combinator (Spring 2026) financial-infrastructure
+  startup building global payouts, stablecoin banking, and yield infrastructure for
+  the companies powering the AI data economy. Archer lets data marketplaces, AI labor
+  platforms, and reinforcement-learning environment providers onboard workers globally,
+  pay contributors instantly with stablecoins, and earn yield on idle platform balances
+  while funds remain on platform. The company aims to be the financial layer for the
+  global workforce generating the data that trains frontier AI models, reducing
+  cross-border payout costs and improving the financial experience for contributors.
+  Founded by Benjamin Nguyen (CEO) and Vivek Yanamadula (CTO); early stage, no public
+  developer surface or API specification published yet.
 url: https://raw.githubusercontent.com/api-evangelist/archer/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +18,52 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-yc-batch: Spring 2026
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.archermoney.com/assets/favicon.png
 tags:
 - Company
+- Payments
+- Payouts
+- Stablecoins
+- Fintech
+- Financial Infrastructure
+- Artificial Intelligence
+- Banking
 apis: []
+common:
+- type: Website
+  url: https://www.archermoney.com/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/archermoney/
+- type: Twitter
+  url: https://x.com/archer_money
+- type: DomainSecurity
+  url: security/archer-domain-security.yml
+- type: WellKnown
+  url: well-known/archer-well-known.yml
+- type: LLMsTxt
+  url: llms/archer-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
